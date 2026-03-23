@@ -1,0 +1,41 @@
+body {
+  font-family: 'Slabo 27px', serif;
+  background-color: FFF;
+  color: #000;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  margin-left: 20px;
+}
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+@media (min-width: 800px) {
+  #navbar {
+    grid-template-columns: auto 1fr;
+    grid-tempalte-rows: auto 1fr auto;
+    position: fixed;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #ADD8E6;
+  }
+}
+
+@media (min-width: 800px) {
+  main {
+    grid-template-columns: auto 1fr;
+    grid-tempalte-rows: auto 1fr auto;
+    float: right; 
+    width: 72%;
+    margin: 20px 0 0 0;
+  }
+}
+
+.laptop-img {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
